@@ -3,8 +3,8 @@ import { useRouter } from 'next/router'
 
 export default function FormStep1() {
   const router = useRouter()
-  const [email, setEmail] = useState('')
-  const [name, setName] = useState('')
+  const [email, setEmail]   = useState('')
+  const [name, setName]     = useState('')
   const [userId, setUserId] = useState('')
   const [mobile, setMobile] = useState('')
   const [course, setCourse] = useState('')
